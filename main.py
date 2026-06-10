@@ -1,7 +1,7 @@
 import random
 
 player_life = 3
-random_words = ["LeBron", "Kobe", "Aardvark", "Jordan"]
+random_words = ["LeBron", "Kobe", "Aardvark", "Jordan", "Trump"]
 word = random.choice(random_words).lower()
 
 display = ["_"] * len(word)
